@@ -18,7 +18,7 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "start": "cd server && npm install && node src/server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
