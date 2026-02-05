@@ -18,7 +18,7 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server/src/server.js",
     "dev": "node src/server.js",
     "test": "echo \"No tests yet\""
   },
