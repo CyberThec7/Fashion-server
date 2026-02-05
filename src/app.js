@@ -7,7 +7,9 @@ const app = express()
 //#region  Middlewares
 
 //allow React frontend to communicate with this API
-app.use(cors())
+app.use(cors({
+  origin: "fashion-server-production.up.railway.app"
+}))
 
 //parse incoming requests with JSON payloads, to access data via request.body
 app.use(express.json())
