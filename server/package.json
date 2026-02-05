@@ -18,7 +18,9 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "test": " \"echo \\\"No tests yet\\\"\""
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"No tests yet\""
   },
   "dependencies": {
     "cors": "^2.8.6",
