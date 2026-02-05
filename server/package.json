@@ -18,9 +18,7 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
-    "start": "node server/src/server.js",
-    "dev": "node src/server.js",
-    "test": "echo \"No tests yet\""
+    "start": "cd server && npm install && node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
