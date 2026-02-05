@@ -8,7 +8,7 @@ const app = express()
 
 //allow React frontend to communicate with this API
 app.use(cors({
-  origin: "fashion-server-production.up.railway.app"
+  origin: "https://fashion-storefront.netlify.app"
 }))
 
 //parse incoming requests with JSON payloads, to access data via request.body
